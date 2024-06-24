@@ -1,0 +1,43 @@
+main {
+    border: 5px solid blue;
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    border: 2px solid black;
+    width: 25vw;
+}
+
+.main-content {
+    border: 5px solid yellow;
+    width: 75vw;
+}
+
+
+form >* {
+    
+    display: block;
+}
+
+.task-card {
+    display: flex;
+    justify-content: space-between;    
+    border: 3px solid hotpink;
+}
+
+.card-and-content{
+    border: 3px solid yellowgreen;
+}
+
+.card-content {
+    border: 6px solid lightskyblue;
+}
+
+.hidden{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
